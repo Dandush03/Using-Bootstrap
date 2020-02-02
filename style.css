@@ -9,49 +9,92 @@
  *    :......::::........::..::::..::........::..:::::..::..:::::..::........::
  */
 
-*{
-  box-sizing: border-box;
-  width: 100%;
-  height: 100%;
+
+:root {
+  --header-bg-color: #f72210;
+  --roboto-condensed:  "Roboto Condensed", sans-serif;
 }
 
- @media only screen{
-   [class*="col-"]{
-     float: left;
-   }
+.red {
+  background-color: var(--header-bg-color);
+}
 
-  .col-1 {width: 8.33%;}
-  .col-2 {width: 16.66%;}
-  .col-3 {width: 25%;}
-  .col-4 {width: 33.33%;}
-  .col-5 {width: 41.66%;}
-  .col-6 {width: 50%;}
-  .col-7 {width: 58.33%;}
-  .col-8 {width: 66.66%;}
-  .col-9 {width: 75%;}
-  .col-10 {width: 83.33%;}
-  .col-11 {width: 91.66%;}
-  .col-12 {width: 100%;}
- }
+@media only screen and (min-width: 481px) {
 
- /***
- *    '##:::###::::'###::::'##::::'##::::::::::'########:::::'###::::'########::
- *    ####::###:::'#####:::###::::###::::::::::###....###:::'#####:::###....###:
- *    #####:###::'##:.###::###::::###::::::::::###::::###::'##:.###::###::::###:
- *    #########:'##:::.###:###::::###:'#######:#########::'##:::.###:#########::
- *    ###.#####:##########:.###::###::........:###....###:##########:###..###:::
- *    ###:.####:###....###::.######::::::::::::###::::###:###....###:###::.###::
- *    ###::.###:###::::###:::.####:::::::::::::#########::###::::###:###:::.###:
- *    ..::::..::..:::::..:::::...::::::::::::::........:::..:::::..::..:::::..::
- */
+  .h-1,
+  .h-2,
+  .h-3 {
+    font-size: 18px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 
- /***
- *    :'######:::'########:::'#######::'##::::'##:'########::::::::::::::'##:::
- *    '##...###::###....###:'##....###:###::::###:###....###:::::::::::'####:::
- *    ###:::..:::###::::###:###::::###:###::::###:###::::###:::::::::::..###:::
- *    ###::'####:#########::###::::###:###::::###:#########::'#######::::###:::
- *    ###:::###::###..###:::###::::###:###::::###:###.....:::........::::###:::
- *    ###:::###::###::.###::###::::###:###::::###:###::::::::::::::::::::###:::
- *    .#######:::###:::.###:.########::.########::###::::::::::::::::::'######:
- *    :......::::..:::::..:::.......::::.......:::..:::::::::::::::::::......::
- */
+  .h-3 .tag-size {
+    display: inline-block;
+    width: 8px;
+    height: 14px;
+    margin-left: 10px;
+    fill: var(--header-bg-color);
+  }
+
+  .h-3 {
+    font-size: 18px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .h-2 {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+}
+
+@media only screen and (min-width: 992px) {
+
+  .h-3 {
+    padding-left: 12px;
+  }
+
+  .h-1 .h-date{
+    display: block;
+    margin-left: 10px;
+  }
+}
+
+.h-1,
+.h-2,
+.h-3 {
+  position: relative;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: var(--roboto-condensed);
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 6px 3px;
+}
+
+.header-top, .h-2{
+  background-color: var(--header-bg-color);
+  color: var(--white);
+}
+
+.h-1 div {
+  display: none;
+}
+
+.h-1 .h-date {
+  font-size: 16px;
+  line-height: 32px;
+  font-weight: initial;
+  text-transform: unset;
+}
+
+.h-3 {
+  background-color: var(--white);
+  color: var(--header-bg-color);
+}
+
+.h-3 svg {
+  display: none;
+}
