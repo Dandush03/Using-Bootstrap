@@ -101,7 +101,7 @@
     width: 66px;
   }
 
-  .haeder-bottom .nav{
+  .haeder-bottom .nav {
     overflow: hidden;
     max-width: calc(100% - 80px);
   }
@@ -111,6 +111,10 @@
   .header-top {
     position: absolute;
     right: 0;
+  }
+
+  .haeder-bottom {
+    display: none;
   }
 }
 
@@ -221,7 +225,7 @@
   white-space: nowrap;
 }
 
-.haeder-bottom .n-b-l{
+.haeder-bottom .n-b-l {
   border-left: 0;
   overflow: hidden;
 }
@@ -230,6 +234,10 @@
   color: var(--header-bg-color);
 }
 
-.nav-item{
+.nav-item {
   padding: 12px 0;
+}
+
+.nav-link input{
+  
 }
