@@ -100,6 +100,11 @@
   .container .haeder-bottom::before {
     width: 66px;
   }
+
+  .haeder-bottom .nav{
+    overflow: hidden;
+    max-width: calc(100% - 80px);
+  }
 }
 
 @media only screen and (max-width: 992px) {
@@ -185,6 +190,7 @@
 .container .haeder-bottom {
   background-color: white;
   position: relative;
+  border-bottom: 1px solid rgb(225, 225, 225);
 }
 
 .haeder-bottom::before {
@@ -197,4 +203,33 @@
   background-color: #f72210;
   border-left: 12px solid white;
   border-top: 13px solid #f72210;
+}
+
+.haeder-bottom .nav {
+  flex-wrap: nowrap;
+}
+
+.haeder-bottom .nav-link {
+  color: black;
+  font-size: 21px;
+  font-weight: bold;
+  font-family: "Roboto Condensed", sans-serif;
+  border-left: 1px solid rgb(225, 225, 225);
+  padding-top: 0;
+  padding-bottom: 0;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.haeder-bottom .n-b-l{
+  border-left: 0;
+  overflow: hidden;
+}
+
+.haeder-bottom .nav-link:hover {
+  color: var(--header-bg-color);
+}
+
+.nav-item{
+  padding: 12px 0;
 }
