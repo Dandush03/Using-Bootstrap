@@ -14,6 +14,10 @@
   --roboto-condensed: "Roboto Condensed", sans-serif;
 }
 
+figure {
+  margin: 0;
+}
+
 section>h6 {
   display: none;
 }
@@ -694,7 +698,7 @@ article .no-padding {
   padding: 0;
 }
 
-.titles{
+.titles {
   margin: 10px;
 }
 
@@ -715,7 +719,70 @@ article .no-padding {
   right: -4px;
 }
 
-.titles .sp-0{
+.titles .sp-0 {
   border-bottom: 1px solid rgb(225, 225, 225);
   padding: 10px 0;
+}
+
+.genericon-play {
+  background-color: red;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 10px;
+}
+
+.info {
+  background-color: black;
+  color: white;
+}
+
+.info .sumary {
+  color: #c6c6c6;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.info .time {
+  color: #777;
+  font-size: 18px;
+  line-height: 18px;
+}
+
+.week-conv figure {
+  width: 100%;
+  position: relative;
+}
+
+.week-conv .container,
+.week-conv .row {
+  margin: 0;
+  padding: 0;
+}
+
+.week-conv {
+  padding: 0 20px;
+}
+
+.week-conv img {
+  width: 100%;
+  height: 100%;
+}
+
+.week-conv .picture {
+  padding: 0;
+}
+
+.week-conv [class*="col-"] {
+  padding: 0;
+}
+
+.week-conv ul{
+  padding: 0;
+  margin: 0;
+}
+
+.week-conv li{
+  padding: 1px;
 }
