@@ -125,10 +125,14 @@ section>h6 {
     order: 2;
   }
 
-  .left-wrapper {
-    height: 3346px;
+  .left-wrapper, .right-wrapper {
+    height: 1024px;
     position: relative;
     overflow: hidden;
+  }
+
+  .left-wrapper .row>div {
+    height: 1024px;
   }
 
   .main-section {
@@ -142,7 +146,6 @@ section>h6 {
 
   .row .feautered-stories {
     order: 1;
-    height: fit-content;
     overflow-y: scroll;
   }
 
@@ -306,7 +309,8 @@ section>h6 {
 
 .main .row {
   margin: 0;
-  height: 1510px;
+  height: 1024px;
+  overflow: scroll;
 }
 
 .block-title {
@@ -502,6 +506,14 @@ article>h3 {
   text-transform: uppercase;
 }
 
-/* .opinion .col-12 {
+article .no-padding {
   padding: 0;
-} */
+}
+
+.row {
+  overflow-y: scroll;
+}
+
+.row::-webkit-scrollbar {
+  display: none;
+}
