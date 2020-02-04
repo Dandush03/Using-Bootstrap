@@ -292,6 +292,11 @@ section>h6 {
   text-align: center;
 }
 
+.sing-up-add .nav-link {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 .haeder-bottom .nav-link:hover {
   color: var(--header-bg-color);
 }
@@ -570,7 +575,3 @@ article .no-padding {
   font-size: 14px;
 }
 
-.sing-up-add .nav-link {
-  padding-left: 10px;
-  padding-right: 10px;
-}
