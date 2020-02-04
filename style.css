@@ -128,8 +128,25 @@ section>h6 {
     order: 2;
   }
 
+  .left-wrapper {
+    height: 3346px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .main-section {
+    height: fit-content;
+    overflow: hidden;
+  }
+
   .row .feautered-stories {
     order: 1;
+    height: 1024px;
+    overflow-y: scroll;
+  }
+
+  .feautered-stories::-webkit-scrollbar{
+    display: none;
   }
 
   .culture .padding-right {
@@ -344,6 +361,12 @@ article>h3>a:hover {
 
 .top-stories {
   order: 1;
+  height: 1024px;
+  overflow-y: scroll;
+}
+
+.top-stories::-webkit-scrollbar{
+  display: none;
 }
 
 .feautered-stories {
@@ -438,3 +461,9 @@ article>h3>a:hover {
 .more-art .padding-left {
   padding-left: 5px;
 }
+
+.more-art .padding-top {
+  padding-top: 5px;
+  border-top: 1px solid rgb(225, 225, 225);
+}
+
