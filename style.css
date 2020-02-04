@@ -38,6 +38,7 @@ section>h6 {
 }
 
 @media only screen and (min-width: 481px) {
+
   .h-1,
   .h-2,
   .h-3 {
@@ -691,4 +692,30 @@ article .no-padding {
   text-transform: uppercase;
   display: inline-block;
   padding: 0;
+}
+
+.titles{
+  margin: 10px;
+}
+
+.titles .icon {
+  width: 29px;
+  margin-right: 10px;
+}
+
+.slideshow .icon::after {
+  border-bottom: 3px solid red;
+  border-right: 3px solid red;
+  display: block;
+  content: "";
+  width: 26px;
+  height: 25px;
+  position: absolute;
+  bottom: -4px;
+  right: -4px;
+}
+
+.titles .sp-0{
+  border-bottom: 1px solid rgb(225, 225, 225);
+  padding: 10px 0;
 }
