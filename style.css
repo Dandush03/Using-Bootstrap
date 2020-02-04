@@ -125,7 +125,8 @@ section>h6 {
     order: 2;
   }
 
-  .left-wrapper, .right-wrapper {
+  .left-wrapper,
+  .right-wrapper {
     height: 1024px;
     position: relative;
     overflow: hidden;
@@ -307,6 +308,10 @@ section>h6 {
   width: 100%;
 }
 
+.row {
+  overflow-y: scroll;
+}
+
 .main .row {
   margin: 0;
   height: 1024px;
@@ -354,6 +359,18 @@ article>h3>a {
   font-size: 17px;
   font-family: var(--roboto-condensed);
   font-weight: bold;
+}
+
+.align-self-center a {
+  color: white;
+}
+
+.opinion a {
+  font-size: 20px;
+  line-height: 20px;
+  font-family: var(--roboto-condensed);
+  font-weight: bold;
+  color: black;
 }
 
 .culture>article>h3>a {
@@ -479,14 +496,6 @@ article>h3 {
   border-top: none;
 }
 
-.opinion a {
-  font-size: 20px;
-  line-height: 20px;
-  font-family: var(--roboto-condensed);
-  font-weight: bold;
-  color: black;
-}
-
 .opinion a:hover {
   text-decoration: none;
 }
@@ -510,35 +519,28 @@ article .no-padding {
   padding: 0;
 }
 
-.row {
-  overflow-y: scroll;
-}
-
 .row::-webkit-scrollbar {
   display: none;
 }
 
-.sing-up-add .block-title{
+.sing-up-add .block-title {
   font-size: 14px;
   padding-left: 15px;
   padding-top: 0;
+  color: black;
 }
 
-.block-title:hover{
+.block-title:hover {
   text-decoration: none;
 }
 
-.sing-up-add .row{
+.sing-up-add .row {
   overflow: hidden;
   max-width: 300px;
   max-height: 165px;
   margin: auto;
-  background-color:rgb(244, 245, 246);
+  background-color: rgb(244, 245, 246);
   border: rgb(229, 229, 229) solid 1px;
-}
-
-.sing-up-add .block-title{
-  color: black;
 }
 
 .icon {
@@ -546,15 +548,11 @@ article .no-padding {
   width: 100%;
 }
 
-.align-self-center a{
-  color: white;
-}
-
-.sing-up-add .row .padding-left{
+.sing-up-add .row .padding-left {
   padding: 15px;
 }
 
-.sing-up-add .bg-secondary{
+.sing-up-add .bg-secondary {
   height: 25px;
   padding: 0;
 }
@@ -564,7 +562,7 @@ article .no-padding {
   text-align: center;
 }
 
-.sing-up-add .col-12{
+.sing-up-add .col-12 {
   padding: 0;
 }
 
@@ -576,7 +574,7 @@ article .no-padding {
   padding: 15px 0;
 }
 
-.sing-up-add .nav-link{
+.sing-up-add .nav-link {
   padding-left: 10px;
   padding-right: 10px;
 }
