@@ -864,3 +864,36 @@ article .no-padding {
 .last [class*="col-"] {
   padding: 0;
 }
+
+.last .titles{
+  color: var(--header-bg-color);
+  text-align: left;
+}
+
+.last .row{
+  overflow: unset;
+}
+
+.last{
+  padding: 15px;
+}
+
+.prev{
+  left: 15px;
+  top: 15px;
+}
+
+.curr{
+  left: 45px;
+  top: 45px;
+}
+
+.subscribe-img {
+  min-height: 300px;
+  min-width: 240px;
+  width: 240px;
+}
+
+.last .subscribe-cont{
+  padding-top: 15px;
+}
