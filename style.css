@@ -38,7 +38,6 @@ section>h6 {
 }
 
 @media only screen and (min-width: 481px) {
-
   .h-1,
   .h-2,
   .h-3 {
@@ -109,7 +108,6 @@ section>h6 {
 }
 
 @media only screen and (min-width: 768px) {
-
   .content .main-art {
     order: 1;
   }
@@ -137,14 +135,14 @@ section>h6 {
     overflow: hidden;
   }
 
+  .feautered-stories::-webkit-scrollbar {
+    display: none;
+  }
+
   .row .feautered-stories {
     order: 1;
     height: 1024px;
     overflow-y: scroll;
-  }
-
-  .feautered-stories::-webkit-scrollbar {
-    display: none;
   }
 
   .culture .padding-right {
@@ -329,12 +327,12 @@ section>h6 {
   font-weight: bolder;
 }
 
-.category a {
-  color: var(--header-bg-color);
-}
-
 article>h3>a {
   color: black;
+}
+
+.category a {
+  color: var(--header-bg-color);
 }
 
 .related a {
@@ -345,8 +343,19 @@ article>h3>a {
   font-weight: bold;
 }
 
+.more-art a {
+  color: black;
+  font-size: 17px;
+  font-family: var(--roboto-condensed);
+  font-weight: bold;
+}
+
 .culture>article>h3>a {
   font-weight: lighter;
+}
+
+article>h3>a:hover {
+  text-decoration: none;
 }
 
 .category a:hover {
@@ -359,10 +368,6 @@ article>h3 {
   font-family: var(--roboto-condensed);
   font-weight: bold;
   padding-top: 10px;
-}
-
-article>h3>a:hover {
-  text-decoration: none;
 }
 
 .sumary {
@@ -439,13 +444,6 @@ article>h3>a:hover {
   font-family: var(--roboto-condensed);
   font-weight: bold;
   padding: 0;
-}
-
-.more-art a {
-  color: black;
-  font-size: 17px;
-  font-family: var(--roboto-condensed);
-  font-weight: bold;
 }
 
 .more-art [class*='col-'] {
