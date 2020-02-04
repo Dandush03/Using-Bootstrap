@@ -817,3 +817,36 @@ figure>a{
 .editors article:nth-child(5n+0) {
   clear: both;
 }
+
+.slideshow {
+  padding: 15px;
+}
+
+.slideshow .container,
+.slideshow .row {
+  margin: 0;
+  padding: 0;
+}
+
+.slideshow [class*="col-"] {
+  padding: 0;
+}
+
+.slideshow .content article{
+  padding: 15px;
+  float: left;
+}
+
+.slideshow .category {
+  width: 16%;
+  height: 16%;
+  padding-top: 6%;
+  padding-left: 4%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png);
+}
+
+.slideshow article:nth-child(4n+0) {
+  clear: both;
+}
