@@ -46,6 +46,7 @@ figure>a {
 }
 
 @media only screen and (min-width: 481px) {
+
   .h-1,
   .h-2,
   .h-3 {
@@ -865,35 +866,85 @@ article .no-padding {
   padding: 0;
 }
 
-.last .titles{
+.last .titles {
   color: var(--header-bg-color);
   text-align: left;
 }
 
-.last .row{
+.last .row {
   overflow: unset;
 }
 
-.last{
+.last {
   padding: 15px;
 }
 
-.prev{
+.prev {
   left: 15px;
   top: 15px;
 }
 
-.curr{
+.curr {
   left: 45px;
   top: 45px;
 }
 
 .subscribe-img {
   min-height: 300px;
-  min-width: 240px;
-  width: 240px;
+  min-width: 200px;
 }
 
-.last .subscribe-cont{
+.last .subscribe-cont {
   padding-top: 15px;
+  padding-left: 30px;
+}
+
+.s-1 h3{
+  margin-bottom: 15px;
+  font-size: 20px;
+  line-height: 20px;
+  font-family: var(--roboto-condensed);
+  color: black;
+  font-weight: bolder;
+}
+
+.t-s{
+  display: contents;
+}
+
+.last .container{
+  min-width: 0;
+}
+
+.s-3 span{
+  background-color: var(--header-bg-color);
+  color: white;
+  padding: 10px 15px;
+  text-transform: uppercase;
+}
+
+.subscribe-img>div{
+  height: 100%;
+}
+
+.l-2 img{
+  width: 100%;
+  height: 100%;
+  padding: 0 30px 30px 30px;
+  object-fit: cover;
+}
+
+.l-logo{
+  fill: var(--header-bg-color);
+}
+
+.footer-links .logo-svg {
+  width: 236px;
+  height: 50px;
+  margin-right: ;
+}
+
+.copyright {
+  padding: 0;
+  margin: 5px;
 }
