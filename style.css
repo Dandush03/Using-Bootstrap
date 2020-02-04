@@ -38,6 +38,7 @@ section>h6 {
 }
 
 @media only screen and (min-width: 481px) {
+
   .h-1,
   .h-2,
   .h-3 {
@@ -141,7 +142,7 @@ section>h6 {
 
   .row .feautered-stories {
     order: 1;
-    height: 1024px;
+    height: fit-content;
     overflow-y: scroll;
   }
 
@@ -305,6 +306,7 @@ section>h6 {
 
 .main .row {
   margin: 0;
+  height: 1510px;
 }
 
 .block-title {
@@ -376,7 +378,6 @@ article>h3 {
 
 .top-stories {
   order: 1;
-  height: 1024px;
   overflow-y: scroll;
 }
 
@@ -462,3 +463,45 @@ article>h3 {
   padding-top: 20px;
   border-top: 1px solid rgb(225, 225, 225);
 }
+
+.opinion article {
+  display: inline-block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: 1px solid rgb(225, 225, 225);
+}
+
+.opinion .no-border {
+  border-top: none;
+}
+
+.opinion a {
+  font-size: 20px;
+  line-height: 20px;
+  font-family: var(--roboto-condensed);
+  font-weight: bold;
+  color: black;
+}
+
+.opinion a:hover {
+  text-decoration: none;
+}
+
+.opinion h3 {
+  font-size: 20px;
+  line-height: 20px;
+  font-family: var(--roboto-condensed);
+  font-weight: bold;
+  padding-top: 10px
+}
+
+.owner {
+  font-size: 14px;
+  line-height: 21px;
+  color: #555;
+  text-transform: uppercase;
+}
+
+/* .opinion .col-12 {
+  padding: 0;
+} */
