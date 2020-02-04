@@ -38,7 +38,6 @@ section>h6 {
 }
 
 @media only screen and (min-width: 481px) {
-
   .h-1,
   .h-2,
   .h-3 {
@@ -106,12 +105,9 @@ section>h6 {
     overflow: hidden;
     max-width: calc(100% - 80px);
   }
-
 }
 
 @media only screen and (min-width: 768px) {
-
-
   .content .main-art {
     order: 1;
   }
@@ -145,7 +141,7 @@ section>h6 {
     overflow-y: scroll;
   }
 
-  .feautered-stories::-webkit-scrollbar{
+  .feautered-stories::-webkit-scrollbar {
     display: none;
   }
 
@@ -335,6 +331,22 @@ section>h6 {
   color: var(--header-bg-color);
 }
 
+article>h3>a {
+  color: black;
+}
+
+.related a {
+  color: black;
+  font-family: var(--roboto-condensed);
+  font-size: 19px;
+  line-height: 22px;
+  font-weight: bold;
+}
+
+.culture>article>h3>a {
+  font-weight: lighter;
+}
+
 .category a:hover {
   text-decoration: none;
 }
@@ -345,10 +357,6 @@ article>h3 {
   font-family: var(--roboto-condensed);
   font-weight: bold;
   padding-top: 10px;
-}
-
-article>h3>a {
-  color: black;
 }
 
 article>h3>a:hover {
@@ -365,7 +373,7 @@ article>h3>a:hover {
   overflow-y: scroll;
 }
 
-.top-stories::-webkit-scrollbar{
+.top-stories::-webkit-scrollbar {
   display: none;
 }
 
@@ -380,20 +388,8 @@ article>h3>a:hover {
   border-bottom: 1px solid rgb(225, 225, 225);
 }
 
-.related a {
-  color: black;
-  font-family: var(--roboto-condensed);
-  font-size: 19px;
-  line-height: 22px;
-  font-weight: bold;
-}
-
 .culture * {
-  background-color: rgb(244, 245, 247)
-}
-
-.culture>article>h3>a {
-  font-weight: lighter;
+  background-color: rgb(244, 245, 247);
 }
 
 .culture article {
@@ -466,4 +462,3 @@ article>h3>a:hover {
   padding-top: 5px;
   border-top: 1px solid rgb(225, 225, 225);
 }
-
