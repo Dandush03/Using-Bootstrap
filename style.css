@@ -38,7 +38,6 @@ section>h6 {
 }
 
 @media only screen and (min-width: 481px) {
-
   .h-1,
   .h-2,
   .h-3 {
@@ -288,6 +287,11 @@ section>h6 {
   overflow: hidden;
 }
 
+.bg-secondary .nav-link {
+  padding: 0;
+  text-align: center;
+}
+
 .haeder-bottom .nav-link:hover {
   color: var(--header-bg-color);
 }
@@ -310,6 +314,10 @@ section>h6 {
 
 .row {
   overflow-y: scroll;
+}
+
+.row::-webkit-scrollbar {
+  display: none;
 }
 
 .main .row {
@@ -426,6 +434,13 @@ article>h3 {
   overflow: hidden;
 }
 
+.opinion article {
+  display: inline-block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: 1px solid rgb(225, 225, 225);
+}
+
 .culture article:nth-child(odd) {
   clear: both;
 }
@@ -485,13 +500,6 @@ article>h3 {
   border-top: 1px solid rgb(225, 225, 225);
 }
 
-.opinion article {
-  display: inline-block;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  border-top: 1px solid rgb(225, 225, 225);
-}
-
 .opinion .no-border {
   border-top: none;
 }
@@ -505,7 +513,7 @@ article>h3 {
   line-height: 20px;
   font-family: var(--roboto-condensed);
   font-weight: bold;
-  padding-top: 10px
+  padding-top: 10px;
 }
 
 .owner {
@@ -517,10 +525,6 @@ article>h3 {
 
 article .no-padding {
   padding: 0;
-}
-
-.row::-webkit-scrollbar {
-  display: none;
 }
 
 .sing-up-add .block-title {
@@ -535,6 +539,7 @@ article .no-padding {
 }
 
 .sing-up-add .row {
+  padding: 15px 0;
   overflow: hidden;
   max-width: 300px;
   max-height: 165px;
@@ -557,21 +562,12 @@ article .no-padding {
   padding: 0;
 }
 
-.bg-secondary .nav-link {
-  padding: 0;
-  text-align: center;
-}
-
 .sing-up-add .col-12 {
   padding: 0;
 }
 
 .opinion .sm {
   font-size: 14px;
-}
-
-.sing-up-add .row {
-  padding: 15px 0;
 }
 
 .sing-up-add .nav-link {
