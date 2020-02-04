@@ -72,6 +72,10 @@ section>h6 {
 }
 
 @media only screen and (min-width: 992px) {
+  .editors article:nth-child(5n+0) {
+    clear: both;
+  }
+
   .h-3 {
     padding-left: 12px;
   }
@@ -172,6 +176,12 @@ section>h6 {
 
   .the-magazine .special {
     height: 55vh;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .editors article:nth-child(odd) {
+    clear: both;
   }
 }
 
@@ -778,20 +788,20 @@ article .no-padding {
   padding: 0;
 }
 
-.week-conv ul{
+.week-conv ul {
   padding: 0;
   margin: 0;
 }
 
-.week-conv li{
+.week-conv li {
   padding: 1px;
 }
 
-figure>a{
+figure>a {
   width: 100%;
 }
 
-.editors article{
+.editors article {
   padding: 15px;
   float: left;
 }
@@ -806,16 +816,12 @@ figure>a{
   padding: 0;
 }
 
-.content .col-md-3{
+.content .col-md-3 {
   padding: 10px;
 }
 
 .editors {
   padding: 0 20px;
-}
-
-.editors article:nth-child(5n+0) {
-  clear: both;
 }
 
 .slideshow {
@@ -832,7 +838,7 @@ figure>a{
   padding: 0;
 }
 
-.slideshow .content article{
+.slideshow .content article {
   padding: 15px;
   float: left;
 }
@@ -849,4 +855,14 @@ figure>a{
 
 .slideshow article:nth-child(4n+0) {
   clear: both;
+}
+
+.last .container,
+.last .row {
+  margin: 0;
+  padding: 0;
+}
+
+.last [class*="col-"] {
+  padding: 0;
 }
