@@ -786,3 +786,34 @@ article .no-padding {
 .week-conv li{
   padding: 1px;
 }
+
+figure>a{
+  width: 100%;
+}
+
+.editors article{
+  padding: 15px;
+  float: left;
+}
+
+.editors .container,
+.editors .row {
+  margin: 0;
+  padding: 0;
+}
+
+.editors [class*="col-"] {
+  padding: 0;
+}
+
+.content .col-md-3{
+  padding: 10px;
+}
+
+.editors {
+  padding: 0 20px;
+}
+
+.editors article:nth-child(5n+0) {
+  clear: both;
+}
