@@ -38,6 +38,7 @@ section>h6 {
 }
 
 @media only screen and (min-width: 481px) {
+
   .h-1,
   .h-2,
   .h-3 {
@@ -159,6 +160,14 @@ section>h6 {
 
   .culture .padding-bottom {
     padding-bottom: 20px;
+  }
+
+  .the-magazine img {
+    height: 40vh;
+  }
+  
+  .the-magazine .special {
+    height: 55vh;
   }
 }
 
@@ -575,3 +584,113 @@ article .no-padding {
   font-size: 14px;
 }
 
+.the-magazine {
+  padding: 15px;
+}
+.the-magazine .col-12,
+.the-magazine .col-10 {
+  padding: 0;
+}
+
+.the-magazine .col-md-3 {
+  padding: 7.5px;
+}
+
+.the-magazine img {
+  width: 100%;
+}
+
+.categories {
+  padding: 10px 0;
+  width: 100%;
+}
+
+
+.red-cat {
+  background-color: var(--header-bg-color);
+  color: white;
+  position: relative;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: var(--roboto-condensed);
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 0 10px;
+}
+
+.white-cat {
+  position: relative;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: var(--roboto-condensed);
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 0 10px;
+}
+
+.white-cat a {
+  color: var(--header-bg-color);
+}
+
+.categories-1 h3 {
+  position: relative;
+  font-size: 14px;
+  font-weight: 1000;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 0;
+}
+
+.the-magazine article:nth-child(5n+0) {
+  clear: both;
+}
+
+.the-magazine .category {
+  position: absolute;
+  bottom: 0;
+  text-transform: uppercase;
+  background-color: var(--header-bg-color);
+  padding: 5px;
+  font-weight: bolder;
+  font-size: 18px;
+  font-family: var(--roboto-condensed);
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 0 10px;
+}
+
+.the-magazine .category a {
+  color: white;
+}
+
+.the-magazine .category a:hover {
+  text-decoration: none;
+}
+
+.sp-1 .category {
+  background-color: rgba(255, 255, 255, 0.803);
+  color: var(--header-bg-color);
+}
+
+.border-bottom{
+  border-bottom: 1px solid rgb(104, 104, 104);
+}
+
+.the-magazine .icon {
+  width: 35px;
+}
+
+.the-magazine .sp-0 span{
+  margin-right: 15px;
+  margin-bottom: 10px;
+}
+
+.sp-0 span {
+  position: relative;
+  font-size: 20px;
+  font-weight: 1000;
+  font-family: var(--roboto-condensed);
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 0;
+}
