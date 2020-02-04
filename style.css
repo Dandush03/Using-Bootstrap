@@ -22,6 +22,10 @@ section>h6 {
   display: none;
 }
 
+figure>a {
+  width: 100%;
+}
+
 .col-lg,
 [class*='col-lg-'] {
   padding-right: 0;
@@ -42,7 +46,6 @@ section>h6 {
 }
 
 @media only screen and (min-width: 481px) {
-
   .h-1,
   .h-2,
   .h-3 {
@@ -473,6 +476,11 @@ article>h3 {
   border-top: 1px solid rgb(225, 225, 225);
 }
 
+.editors article {
+  padding: 15px;
+  float: left;
+}
+
 .culture article:nth-child(odd) {
   clear: both;
 }
@@ -664,7 +672,6 @@ article .no-padding {
   bottom: 0;
   text-transform: uppercase;
   background-color: var(--header-bg-color);
-  padding: 5px;
   font-weight: bolder;
   font-size: 18px;
   font-family: var(--roboto-condensed);
@@ -693,11 +700,6 @@ article .no-padding {
   width: 35px;
 }
 
-.the-magazine .sp-0 span {
-  margin-right: 15px;
-  margin-bottom: 10px;
-}
-
 .sp-0 span {
   position: relative;
   font-size: 20px;
@@ -706,6 +708,11 @@ article .no-padding {
   text-transform: uppercase;
   display: inline-block;
   padding: 0;
+}
+
+.the-magazine .sp-0 span {
+  margin-right: 15px;
+  margin-bottom: 10px;
 }
 
 .titles {
@@ -795,15 +802,6 @@ article .no-padding {
 
 .week-conv li {
   padding: 1px;
-}
-
-figure>a {
-  width: 100%;
-}
-
-.editors article {
-  padding: 15px;
-  float: left;
 }
 
 .editors .container,
