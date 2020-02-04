@@ -517,3 +517,66 @@ article .no-padding {
 .row::-webkit-scrollbar {
   display: none;
 }
+
+.sing-up-add .block-title{
+  font-size: 14px;
+  padding-left: 15px;
+  padding-top: 0;
+}
+
+.block-title:hover{
+  text-decoration: none;
+}
+
+.sing-up-add .row{
+  overflow: hidden;
+  max-width: 300px;
+  max-height: 165px;
+  margin: auto;
+  background-color:rgb(244, 245, 246);
+  border: rgb(229, 229, 229) solid 1px;
+}
+
+.sing-up-add .block-title{
+  color: black;
+}
+
+.icon {
+  background-color: var(--header-bg-color);
+  width: 100%;
+}
+
+.align-self-center a{
+  color: white;
+}
+
+.sing-up-add .row .padding-left{
+  padding: 15px;
+}
+
+.sing-up-add .bg-secondary{
+  height: 25px;
+  padding: 0;
+}
+
+.bg-secondary .nav-link {
+  padding: 0;
+  text-align: center;
+}
+
+.sing-up-add .col-12{
+  padding: 0;
+}
+
+.opinion .sm {
+  font-size: 14px;
+}
+
+.sing-up-add .row {
+  padding: 15px 0;
+}
+
+.sing-up-add .nav-link{
+  padding-left: 10px;
+  padding-right: 10px;
+}
