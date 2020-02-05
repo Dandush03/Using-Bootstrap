@@ -34,7 +34,6 @@ figure>a {
 }
 
 @media only screen and (min-width: 481px) {
-
   .h-1,
   .h-2,
   .h-3 {
@@ -670,6 +669,13 @@ article .no-padding {
   padding: 0;
 }
 
+.s-3 span {
+  background-color: var(--header-bg-color);
+  color: white;
+  padding: 10px 15px;
+  text-transform: uppercase;
+}
+
 .the-magazine .sp-0 span {
   margin-right: 15px;
   margin-bottom: 10px;
@@ -839,7 +845,7 @@ article .no-padding {
 }
 
 .prev {
-  right: calc(100% -15px);
+  right: 15px;
   top: 15px;
 }
 
@@ -871,13 +877,6 @@ article .no-padding {
 
 .last .container {
   min-width: 0;
-}
-
-.s-3 span {
-  background-color: var(--header-bg-color);
-  color: white;
-  padding: 10px 15px;
-  text-transform: uppercase;
 }
 
 .subscribe-img>div {
