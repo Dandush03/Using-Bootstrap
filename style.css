@@ -381,6 +381,13 @@ article>h3>a {
   color: #f72210;
 }
 
+.footer-l a {
+  color: gray;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-right: lightgray solid 1px;
+}
+
 .culture>article>h3>a {
   font-weight: lighter;
 }
@@ -914,14 +921,7 @@ article .no-padding {
 }
 
 .icons path {
-  fill: rgba(3, 3, 3, 0.7)
-}
-
-.footer-l a {
-  color: gray;
-  padding-left: 10px;
-  padding-right: 10px;
-  border-right: lightgray solid 1px;
+  fill: rgba(3, 3, 3, 0.7);
 }
 
 .top-footer {
