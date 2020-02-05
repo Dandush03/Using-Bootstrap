@@ -149,14 +149,6 @@ figure>a {
   .culture .padding-bottom {
     padding-bottom: 20px;
   }
-
-  .the-magazine img {
-    height: 311px;
-  }
-
-  .the-magazine .special {
-    height: 375px;
-  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -546,8 +538,11 @@ article .no-padding {
   text-decoration: none;
 }
 
+.sing-up-add .content {
+  padding: 50px 0;
+}
+
 .sing-up-add .row {
-  padding: 15px 0;
   max-width: 300px;
   max-height: 165px;
   margin: auto;
@@ -929,6 +924,18 @@ article .no-padding {
   margin-bottom: 20px;
 }
 
-.opinion .col-3 .image {
-  max-width: 95px;
+.picture {
+  position: relative;
+  padding-bottom: 100%;
+  overflow: hidden;
+  display: block;
+}
+
+.picture img {
+  position: absolute;
+  height: 100%;
+}
+
+.sp-01 {
+  padding-bottom: 120%;
 }
