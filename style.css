@@ -1,4 +1,4 @@
-strong{
+strong {
   margin-right: 10px;
   color: gray;
   padding-left: 10px;
@@ -35,6 +35,7 @@ figure>a {
 }
 
 @media only screen and (min-width: 481px) {
+
   .h-1,
   .h-2,
   .h-3 {
@@ -903,28 +904,28 @@ article .no-padding {
   margin: 5px;
 }
 
- .icons .nav-item svg{
+.icons .nav-item svg {
   height: 24px;
   width: 24px;
   margin-right: 10px;
 }
 
-.icons path{
+.icons path {
   fill: rgba(3, 3, 3, 0.7)
 }
 
-.footer-l a{
+.footer-l a {
   color: gray;
   padding-left: 10px;
   padding-right: 10px;
   border-right: lightgray solid 1px;
 }
 
-.footer-l .no-border a{
+.footer-l .no-border a {
   border: none;
 }
 
-.top-footer{
+.top-footer {
   border-bottom: 1px solid rgb(225, 225, 225);
   margin-bottom: 20px;
 }
