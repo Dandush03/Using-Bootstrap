@@ -1,14 +1,3 @@
-/***
- *    :'######:::'########:'##:::###:'########:'########:::::'###::::'##:::::::
- *    '##...###::###.....::####::###:###.....::###....###:::'#####:::###:::::::
- *    ###:::..:::###:::::::#####:###:###:::::::###::::###::'##:.###::###:::::::
- *    ###::'####:#######:::#########:#######:::#########::'##:::.###:###:::::::
- *    ###:::###::###...::::###.#####:###...::::###..###:::##########:###:::::::
- *    ###:::###::###:::::::###:.####:###:::::::###::.###::###....###:###:::::::
- *    .#######:::#########:###::.###:#########:###:::.###:###::::###:#########:
- *    :......::::........::..::::..::........::..:::::..::..:::::..::........::
- */
-
 :root {
   --header-bg-color: #f72210;
   --roboto-condensed: "Roboto Condensed", sans-serif;
@@ -33,7 +22,6 @@ figure>a {
 }
 
 .w {
-  overflow: hidden;
   position: relative;
 }
 
@@ -137,29 +125,17 @@ figure>a {
     order: 2;
   }
 
-  .left-wrapper,
   .right-wrapper {
-    height: 1024px;
-    position: relative;
-    overflow: hidden;
-  }
-
-  .left-wrapper .row>div {
-    height: 1024px;
+    position: sticky;
+    top: 0;
   }
 
   .main-section {
     height: fit-content;
-    overflow: hidden;
-  }
-
-  .feautered-stories::-webkit-scrollbar {
-    display: none;
   }
 
   .row .feautered-stories {
     order: 1;
-    overflow-y: scroll;
   }
 
   .culture .padding-right {
@@ -305,13 +281,11 @@ figure>a {
   border-left: 1px solid rgb(225, 225, 225);
   padding-top: 0;
   padding-bottom: 0;
-  overflow: hidden;
   white-space: nowrap;
 }
 
 .haeder-bottom .n-b-l {
   border-left: 0;
-  overflow: hidden;
 }
 
 .bg-secondary .nav-link {
@@ -344,18 +318,8 @@ figure>a {
   width: 100%;
 }
 
-.row {
-  overflow-y: scroll;
-}
-
-.row::-webkit-scrollbar {
-  display: none;
-}
-
 .main .row {
   margin: 0;
-  height: 1024px;
-  overflow: scroll;
 }
 
 .block-title {
@@ -443,15 +407,12 @@ article>h3 {
 
 .top-stories {
   order: 1;
-  overflow-y: scroll;
-}
-
-.top-stories::-webkit-scrollbar {
-  display: none;
 }
 
 .feautered-stories {
   order: 2;
+  position: sticky;
+  top: 0;
 }
 
 .related {
@@ -467,7 +428,6 @@ article>h3 {
 
 .culture article {
   padding: 0;
-  overflow: hidden;
 }
 
 .opinion article {
@@ -581,7 +541,6 @@ article .no-padding {
 
 .sing-up-add .row {
   padding: 15px 0;
-  overflow: hidden;
   max-width: 300px;
   max-height: 165px;
   margin: auto;
@@ -880,7 +839,7 @@ article .no-padding {
 }
 
 .prev {
-  left: 15px;
+  right: calc(100% -15px);
   top: 15px;
 }
 
@@ -891,15 +850,13 @@ article .no-padding {
 
 .subscribe-img {
   min-height: 300px;
-  min-width: 200px;
 }
 
 .last .subscribe-cont {
   padding-top: 15px;
-  padding-left: 30px;
 }
 
-.s-1 h3{
+.s-1 h3 {
   margin-bottom: 15px;
   font-size: 20px;
   line-height: 20px;
@@ -908,40 +865,39 @@ article .no-padding {
   font-weight: bolder;
 }
 
-.t-s{
+.t-s {
   display: contents;
 }
 
-.last .container{
+.last .container {
   min-width: 0;
 }
 
-.s-3 span{
+.s-3 span {
   background-color: var(--header-bg-color);
   color: white;
   padding: 10px 15px;
   text-transform: uppercase;
 }
 
-.subscribe-img>div{
+.subscribe-img>div {
   height: 100%;
 }
 
-.l-2 img{
+.l-2 img {
   width: 100%;
   height: 100%;
-  padding: 0 30px 30px 30px;
+  padding: 3.5% 3.5% 3.5% 3.5%;
   object-fit: cover;
 }
 
-.l-logo{
+.l-logo {
   fill: var(--header-bg-color);
 }
 
 .footer-links .logo-svg {
   width: 236px;
   height: 50px;
-  margin-right: ;
 }
 
 .copyright {
