@@ -39,6 +39,7 @@ figure>a {
 }
 
 @media only screen and (min-width: 481px) {
+
   .h-1,
   .h-2,
   .h-3 {
@@ -52,6 +53,10 @@ figure>a {
     width: 8px;
     height: 14px;
     margin-left: 10px;
+    fill: #f72210;
+  }
+
+  .tag-size g {
     fill: #f72210;
   }
 
@@ -74,6 +79,10 @@ figure>a {
 
   .h-3 {
     padding-left: 12px;
+  }
+
+  .h-4{
+    display: none;
   }
 
   .h-1 .h-date {
@@ -159,6 +168,7 @@ figure>a {
   .editors article:nth-child(odd) {
     clear: both;
   }
+
 }
 
 @media only screen and (max-width: 992px) {
