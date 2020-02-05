@@ -758,6 +758,13 @@ article .no-padding {
   height: 100%;
 }
 
+.picture {
+  position: relative;
+  padding-bottom: 100%;
+  overflow: hidden;
+  display: block;
+}
+
 .week-conv .picture {
   padding: 0;
 }
@@ -924,13 +931,6 @@ article .no-padding {
   margin-bottom: 20px;
 }
 
-.picture {
-  position: relative;
-  padding-bottom: 100%;
-  overflow: hidden;
-  display: block;
-}
-
 .picture img {
   position: absolute;
   height: 100%;
@@ -939,3 +939,18 @@ article .no-padding {
 .sp-01 {
   padding-bottom: 120%;
 }
+
+.cate {
+  border: none;
+  border-top: solid 1px lightgray;
+  color: red;
+  font-weight: bolder;
+}
+
+.spe .info {
+  background-color: transparent;
+  color: black;
+  font-weight: bold;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
