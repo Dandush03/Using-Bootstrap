@@ -35,7 +35,6 @@ figure>a {
 }
 
 @media only screen and (min-width: 481px) {
-
   .h-1,
   .h-2,
   .h-3 {
@@ -643,6 +642,10 @@ article .no-padding {
   color: white;
 }
 
+.footer-l .no-border a {
+  border: none;
+}
+
 .the-magazine .category a:hover {
   text-decoration: none;
 }
@@ -919,10 +922,6 @@ article .no-padding {
   padding-left: 10px;
   padding-right: 10px;
   border-right: lightgray solid 1px;
-}
-
-.footer-l .no-border a {
-  border: none;
 }
 
 .top-footer {
