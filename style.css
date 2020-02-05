@@ -928,3 +928,7 @@ article .no-padding {
   border-bottom: 1px solid rgb(225, 225, 225);
   margin-bottom: 20px;
 }
+
+.opinion .col-3 .image {
+  max-width: 95px;
+}
