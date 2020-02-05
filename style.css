@@ -4,6 +4,10 @@ strong {
   padding-left: 10px;
 }
 
+li {
+  list-style: none;
+}
+
 figure {
   margin: 0;
 }
